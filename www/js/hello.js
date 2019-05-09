@@ -6,7 +6,7 @@ class test {
         this.ele.onclick = this.onClick.bind(this);
     }
     onClick(){
-        alert("click!!");
+        alert("id=" + this.id + "¥r" + "age=" + this.age);
     }
 }
  
