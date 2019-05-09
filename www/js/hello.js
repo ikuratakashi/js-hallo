@@ -3,7 +3,7 @@ class test {
         this.id = pId;
         this.age = pAge;
         this.ele = document.getElementById(this.id);
-        this.ele.onclick = this.onClick;
+        this.ele.onclick = this.onClick.bind(this);
     }
     onClick(){
         alert("click!!");
